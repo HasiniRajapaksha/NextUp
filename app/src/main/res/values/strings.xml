@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NextUp</string>
+    <!--    i added-->
+    <string name="add_note">Add a new note</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/cream"
+    tools:context=".AddNoteActivity">
+
+    <!-- title TextView for the screen header -->
+    <TextView
+        android:id="@+id/addNoteHeading"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="226dp"
+        android:fontFamily="@font/poppins"
+        android:text="Add Task"
+        android:textColor="@color/purpleL"
+        android:textSize="24sp" />
+
+    <!-- save Button to submit the note -->
+    <ImageView
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_done_24"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/addNoteHeading"
+        android:layout_marginEnd="6dp"/>
+
+    <!-- title EditText field where user can enter the note's title -->
+    <EditText
+        android:id="@+id/tittleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter the title"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/addNoteHeading"
+        android:background="@drawable/purple_border"
+        android:layout_marginTop="16dp"
+        android:maxLines="1"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/gray"/>
+
+    <!-- content EditText field where user can enter the note's description -->
+    <EditText
+        android:id="@+id/contentEditText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Enter the description"
+        android:gravity="top"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppins"
+        android:background="@drawable/purple_border"
+        android:layout_below="@+id/tittleEditText"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/gray"/>
+
+</RelativeLayout>
+
