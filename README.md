@@ -18,7 +18,7 @@ A simple and efficient **To-Do List App** built with **Kotlin** and **SQLite**. 
 
 | Home Screen  | Add Task Screen | Update Task Screen | Delete Task Screen |
 |-------------|----------------|--------------------|-------------------|
-| ![Image](https://github.com/user-attachments/assets/d7333dab-5d89-4253-bdf8-8a680d9801db) | ![Image](https://github.com/user-attachments/assets/34c2a3a5-bfcd-464a-945a-c8496aecc942) | ![Image](https://github.com/user-attachments/assets/1d78b2ad-daae-4405-b951-ba6805537b4b) |![Image](https://github.com/user-attachments/assets/fa086957-932e-41f4-9cd9-c62a52e3c183)
+| ![Image](https://github.com/user-attachments/assets/d3251d90-b40e-41cc-85d8-5410f52b215a) | ![Image](https://github.com/user-attachments/assets/f725922d-b9dc-4043-9f7a-3d34eb7396ea) | ![Image](https://github.com/user-attachments/assets/fe1a1629-4f19-4b97-a2cf-d3e801e1a10e)|![Image](https://github.com/user-attachments/assets/9eaf10d1-1fe0-42f0-b9d9-e7273c8b46f2)
 
 ---
 
