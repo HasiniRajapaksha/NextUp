@@ -6,7 +6,6 @@ A simple and efficient **To-Do List App** built with **Kotlin** and **SQLite**. 
 
 ## 📌 **Features**  
 ✔️ Add new tasks with a title and content 
-
 ✔️ Update existing tasks effortlessly  
 ✔️ Delete tasks when no longer needed  
 ✔️ Clean and user-friendly UI  
